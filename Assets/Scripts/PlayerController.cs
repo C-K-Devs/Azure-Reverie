@@ -4,12 +4,13 @@ using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 5f;
-    public float jumpForce = 10f;
+    public float jumpForce = 5f;
     public LayerMask groundLayer;
 
     private Rigidbody2D rb;
     private Animator animator;
     private bool isInverseWorld;
+    private bool facingRight = true; // Track the direction the character is facing
 
     void Start()
     {
@@ -41,11 +42,29 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetBool("IsJumping", false);
         }
+
+        // Flip character direction based on movement
+        if (moveInput > 0 && !facingRight)
+        {
+            Flip();
+        }
+        else if (moveInput < 0 && facingRight)
+        {
+            Flip();
+        }
     }
 
     bool IsGrounded()
     {
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 1f, groundLayer);
         return hit.collider != null;
+    }
+
+    void Flip()
+    {
+        facingRight = !facingRight;
+        Vector3 theScale = transform.localScale;
+        theScale.x *= -1; // Flip the character by inverting the x scale
+        transform.localScale = theScale;
     }
 }
