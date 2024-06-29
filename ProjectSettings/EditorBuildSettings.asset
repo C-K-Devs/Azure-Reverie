@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main_menu.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Realworld.unity
+    guid: 037fa6ead30995b45a04d91fb98c6b73
+  - enabled: 1
+    path: Assets/Scenes/Inverseworld.unity
+    guid: ff463509588f5144080f50fbaadfa4ee
+  - enabled: 1
+    path: Assets/Scenes/End Screen.unity
+    guid: 3d79ea18870c69247924df153c580a19
+  m_configObjects: {}
