@@ -18,6 +18,10 @@ public class PlayerController : MonoBehaviour
     private bool isAirDashing;
     private float airDashTime;
 
+    private int flowerCount = 0;
+    public int totalFlowers = 3;
+    public GameObject bed2;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -77,6 +81,12 @@ public class PlayerController : MonoBehaviour
         {
             Flip();
         }
+
+        if (flowerCount == totalFlowers && Vector2.Distance(transform.position, bed2.transform.position) < 1f)
+        {
+            SaveGame();
+            LoadNextScene();
+        }
     }
 
     void Jump()
@@ -132,5 +142,24 @@ public class PlayerController : MonoBehaviour
         canDoubleJump = false;
         hasAirDashed = false;
         isAirDashing = false;
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Flower"))
+        {
+            flowerCount++;
+        }
+    }
+
+    void SaveGame()
+    {
+        Debug.Log("Game Saved")
+    }
+
+    void LoadNextScene()
+    {
+        // Load the next scene
+        SceneManager.LoadScene("RealWorld");
     }
 }
