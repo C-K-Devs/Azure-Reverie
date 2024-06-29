@@ -532,7 +532,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3354746603163170475, guid: 0bc93e2b93fb30a4281f357244720525, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.432
+      value: -3.446
       objectReference: {fileID: 0}
     - target: {fileID: 3354746603163170475, guid: 0bc93e2b93fb30a4281f357244720525, type: 3}
       propertyPath: m_LocalPosition.z
@@ -577,6 +577,10 @@ PrefabInstance:
     - target: {fileID: 3904186525967544571, guid: 0bc93e2b93fb30a4281f357244720525, type: 3}
       propertyPath: m_DrawMode
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3904186525967544571, guid: 0bc93e2b93fb30a4281f357244720525, type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5826903916225318517, guid: 0bc93e2b93fb30a4281f357244720525, type: 3}
       propertyPath: m_Size.x
