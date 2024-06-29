@@ -566,6 +566,46 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3904186525967544571, guid: 0bc93e2b93fb30a4281f357244720525, type: 3}
+      propertyPath: m_Size.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3904186525967544571, guid: 0bc93e2b93fb30a4281f357244720525, type: 3}
+      propertyPath: m_Size.y
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3904186525967544571, guid: 0bc93e2b93fb30a4281f357244720525, type: 3}
+      propertyPath: m_DrawMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5826903916225318517, guid: 0bc93e2b93fb30a4281f357244720525, type: 3}
+      propertyPath: m_Size.x
+      value: 3.0241241
+      objectReference: {fileID: 0}
+    - target: {fileID: 5826903916225318517, guid: 0bc93e2b93fb30a4281f357244720525, type: 3}
+      propertyPath: m_Size.y
+      value: 4.8994484
+      objectReference: {fileID: 0}
+    - target: {fileID: 5826903916225318517, guid: 0bc93e2b93fb30a4281f357244720525, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.7194519
+      objectReference: {fileID: 0}
+    - target: {fileID: 5826903916225318517, guid: 0bc93e2b93fb30a4281f357244720525, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.26969814
+      objectReference: {fileID: 0}
+    - target: {fileID: 5826903916225318517, guid: 0bc93e2b93fb30a4281f357244720525, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5826903916225318517, guid: 0bc93e2b93fb30a4281f357244720525, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5826903916225318517, guid: 0bc93e2b93fb30a4281f357244720525, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 5.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
