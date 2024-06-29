@@ -48,6 +48,7 @@ public class PlayerController : MonoBehaviour
 
         // Update animator parameters
         animator.SetFloat("Speed", Mathf.Abs(moveInput));
+        animator.SetBool("IsGrounded", IsGrounded());
 
         // Jumping and Double Jumping
         if (Input.GetButtonDown("Jump"))
@@ -124,7 +125,6 @@ public class PlayerController : MonoBehaviour
         if (grounded)
         {
             animator.SetBool("IsJumping", false);
-            ResetJumpDash();
         }
         return grounded;
     }
@@ -154,7 +154,7 @@ public class PlayerController : MonoBehaviour
 
     void SaveGame()
     {
-        Debug.Log("Game Saved")
+        Debug.Log("Game Saved");
     }
 
     void LoadNextScene()
