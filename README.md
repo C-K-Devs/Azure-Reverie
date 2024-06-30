@@ -1,6 +1,7 @@
 # Azure Reverie
-
-![Azure Reverie](./Assets/Art/forgetmenotflo-removebg-preview.png)
+<p align="center">
+  <img src="./Assets/Art/forgetmenotflo-removebg-preview.pngg" alt="Azure Reverie">
+</p>
 
 ## Description
 Azure Reverie is a 2D platformer game developed for the IGDC Game Connect Kolkata hosted by Red Apple Learning & SCOPE Gaming Community. The game explores themes of memory, time travel, and upside-down worlds through a poignant story of a young boy coming to terms with the concept of loss and death.
