@@ -1009,6 +1009,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1501987825125492134, guid: 0bc93e2b93fb30a4281f357244720525, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: d2c147051a5135f499a3d8866986ffcb, type: 2}
+    - target: {fileID: 1501987825125492134, guid: 0bc93e2b93fb30a4281f357244720525, type: 3}
       propertyPath: m_Constraints
       value: 4
       objectReference: {fileID: 0}
@@ -1075,6 +1079,10 @@ PrefabInstance:
     - target: {fileID: 3904186525967544571, guid: 0bc93e2b93fb30a4281f357244720525, type: 3}
       propertyPath: m_DrawMode
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3904186525967544571, guid: 0bc93e2b93fb30a4281f357244720525, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3904186525967544571, guid: 0bc93e2b93fb30a4281f357244720525, type: 3}
       propertyPath: m_SpriteSortPoint
@@ -1245,7 +1253,7 @@ GameObject:
   - component: {fileID: 289682913}
   - component: {fileID: 289682912}
   - component: {fileID: 289682914}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stairs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4421,7 +4429,7 @@ GameObject:
   - component: {fileID: 743272844}
   - component: {fileID: 743272843}
   - component: {fileID: 743272845}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Medieval_tiles_free2_96
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4640,7 +4648,7 @@ GameObject:
   - component: {fileID: 828104859}
   - component: {fileID: 828104858}
   - component: {fileID: 828104860}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Medieval_tiles_free2_97
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5606,7 +5614,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1924840910725967023, guid: aea2031baec57684c94b0cb1a902dd8b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -6054,7 +6063,7 @@ GameObject:
   - component: {fileID: 1134595281}
   - component: {fileID: 1134595280}
   - component: {fileID: 1134595282}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Medieval_tiles_free2_126
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6676,7 +6685,7 @@ GameObject:
   - component: {fileID: 1281858329}
   - component: {fileID: 1281858328}
   - component: {fileID: 1281858330}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Medieval_tiles_free2_19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7358,7 +7367,7 @@ GameObject:
   - component: {fileID: 1422973750}
   - component: {fileID: 1422973751}
   - component: {fileID: 1422973752}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Medieval_tiles_free2_19 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7663,7 +7672,7 @@ GameObject:
   - component: {fileID: 1487031273}
   - component: {fileID: 1487031272}
   - component: {fileID: 1487031274}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Medieval_tiles_free2_126 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8410,13 +8419,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1647179246}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.96998656, y: -0.0050268485, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1048518911}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180.297}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1647179248
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8501,7 +8510,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.16302568}
+  m_Offset: {x: 0, y: -0.18052715}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -8512,7 +8521,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.67394865}
+  m_Size: {x: 1, y: 0.6389457}
   m_EdgeRadius: 0
 --- !u!1 &1669780667
 GameObject:
@@ -10513,7 +10522,7 @@ GameObject:
   - component: {fileID: 1989284316}
   - component: {fileID: 1989284315}
   - component: {fileID: 1989284317}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stairs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11579,7 +11588,7 @@ Transform:
   m_GameObject: {fileID: 2104963044}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: 32.8, y: 2.7, z: -40}
+  m_LocalPosition: {x: 0.8, y: 2.7, z: -40}
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11802,10 +11811,10 @@ SceneRoots:
   m_Roots:
   - {fileID: 1075464940}
   - {fileID: 549174714}
+  - {fileID: 197425867}
   - {fileID: 581607340}
   - {fileID: 1775577439}
   - {fileID: 1330708927}
-  - {fileID: 197425867}
   - {fileID: 1720673613}
   - {fileID: 1005492458}
   - {fileID: 1733521901}

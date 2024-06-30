@@ -159,7 +159,18 @@ public class PlayerController : MonoBehaviour
 
     void LoadNextScene()
     {
-        // Load the next scene
-        SceneManager.LoadScene("RealWorld");
+        // Check the current scene and load the appropriate next scene
+        string currentSceneName = SceneManager.GetActiveScene().name;
+     
+        if (currentSceneName == "RealWorld")
+        {
+            SceneManager.LoadScene("InverseWorld");
+        }
+
+        else if (currentSceneName == "InverseWorld")
+        {
+            SceneManager.LoadScene("EndScreen");
+        }
+        
     }
 }
