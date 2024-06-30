@@ -48,7 +48,7 @@ The boy believes his grandparents will return from heaven. That night, he has a 
 - Interact : Return 
 
 ## Game Design Document
-
+You can view the detailed Game Design Document [here](./GameDesignDocument.pdf).
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
