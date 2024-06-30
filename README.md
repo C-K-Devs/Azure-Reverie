@@ -8,7 +8,7 @@ Azure Reverie is a 2D platformer game developed for the IGDC Game Connect Kolkat
 - [Game Story](#game-story)
 - [Features](#features)
 - [Controls](#Controls)
-- [Contributing](#contributing)
+- [Game Design Document](#Game-Design-Document)
 - [License](#license)
 - [Contact Information](#contact-information)
 
@@ -46,6 +46,9 @@ The boy believes his grandparents will return from heaven. That night, he has a 
 - Double Jump : Space x 2
 - Air Dash : Space + Left_Shift
 - Interact : Return 
+
+## Game Design Document
+
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
