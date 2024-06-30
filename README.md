@@ -53,6 +53,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact Information
 For any questions or suggestions, feel free to contact the team members:
-- [Tirth Pinkal Sheth](https://github.com/tirthsheth)
-- [Ajitesh Gupta](https://github.com/ajiteshgupta)
-- [Chetan Khoche](https://github.com/chetankhoche)
+- [Tirth Pinkal Sheth](https://github.com/TirthPinkalSheth)
+- [Ajitesh Gupta](https://github.com/LastCypher)
+- [Chetan Khoche](https://github.com/C-K-Devs)
