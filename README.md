@@ -5,7 +5,6 @@ Azure Reverie is a 2D platformer game developed for the IGDC Game Connect Kolkat
 
 ## Table of Contents
 - [Installation](#installation)
-- [Usage](#usage)
 - [Game Story](#game-story)
 - [Features](#features)
 - [Contributing](#contributing)
@@ -14,21 +13,13 @@ Azure Reverie is a 2D platformer game developed for the IGDC Game Connect Kolkat
 
 ## Installation
 To run the game locally, follow these steps:
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/C-K-Devs/Azure-Reverie.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd azure-reverie
-    ```
-3. Open the project in your preferred game engine (Unity/Unreal Engine).
-4. Build and run the game according to the instructions provided by the game engine.
+1. Download the zip file from the given link below.
+2. Extract the zip file onto your PC.
+3. Open the extracted folder, inside run the file "Azure Reverie.exe".
+4. Now, Enjoy the game.
+!! Happy Gaming !!
 
-Alternatively, you can download the latest release of the game [here](https://github.com/your-username/azure-reverie/releases/download/v1.0/azure-reverie.zip).
-
-## Usage
-After building the game, run the executable file to start playing. The game controls and instructions will be provided within the game.
+Download the latest release of the game [here](https://drive.google.com/file/d/1-9ARv8xYlQ97-qO2722GeC1L_qRuf6zN/view?usp=sharing).
 
 ## Game Story
 ### Synopsis
