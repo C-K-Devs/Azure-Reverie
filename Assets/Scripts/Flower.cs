@@ -11,7 +11,7 @@ public class Flower : MonoBehaviour
         if (isFollowing)
         {
             // Move the flower to a position relative to the player
-            transform.position = playerTransform.position + followOffset;
+            transform.localPosition = followOffset;
         }
     }
 
@@ -21,9 +21,12 @@ public class Flower : MonoBehaviour
         {
             playerTransform = other.transform;
             transform.SetParent(playerTransform); // Make the flower a child of the player
+            transform.localPosition = followOffset; // Reset position to zero
             isFollowing = true;
             GetComponent<Collider2D>().enabled = false; // Disable the collider
+            GetComponent<Animator>().enabled = false; // Disable the animator
             GetComponent<SpriteRenderer>().sortingOrder = 1; // Ensure flower is visible above player
         }
     }
 }
+

@@ -2892,7 +2892,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aa8c978d457df14ca5df7e182ca6fd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  followOffset: {x: -0.5, y: 1, z: 0}
+  followOffset: {x: -0.5, y: 1.5, z: 0}
 --- !u!58 &526358913
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6220,7 +6220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aa8c978d457df14ca5df7e182ca6fd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  followOffset: {x: 0.25, y: 0.25, z: 0}
+  followOffset: {x: -2.5, y: 0, z: 0}
 --- !u!58 &1154971810
 CircleCollider2D:
   m_ObjectHideFlags: 0
