@@ -10,6 +10,7 @@ TagManager:
   - Flower
   - Bed2
   - Bed1
+  - LowGround
   layers:
   - Default
   - TransparentFX

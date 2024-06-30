@@ -150,6 +150,11 @@ public class PlayerController : MonoBehaviour
         {
             flowerCount++;
         }
+
+        if (other.CompareTag("LowGround"))
+        {
+            SceneManager.LoadScene("EndScreen");
+        }
     }
 
     void SaveGame()
