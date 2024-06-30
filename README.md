@@ -1,6 +1,6 @@
 # Azure Reverie
 <p align="center">
-  <img src="./Assets/Art/forgetmenotflo-removebg-preview.pngg" alt="Azure Reverie">
+  <img src="./Assets/Art/forgetmenotflo-removebg-preview.png" alt="Azure Reverie">
 </p>
 
 ## Description
