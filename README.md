@@ -16,7 +16,7 @@ Azure Reverie is a 2D platformer game developed for the IGDC Game Connect Kolkat
 To run the game locally, follow these steps:
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/azure-reverie.git
+    git clone https://github.com/C-K-Devs/Azure-Reverie.git
     ```
 2. Navigate to the project directory:
     ```bash
